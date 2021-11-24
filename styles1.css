@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Shippori+Antique&display=swap');
+
+
+.special{
+    width: 200px;
+    height: 300px;
+}
+.h2{
+    position: absolute;
+    bottom: 0 ;
+    background-position: top;
+}
+*,
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Shippori Antique', sans-serif;
+}
+body{
+    background-color:gainsboro;
+}
+ul{
+    list-style: none;
+}
+main{
+    margin:20px;
+    display:grid;
+    grid-template-columns: 33% 1fr;
+    grid-gap: 10px;
+    filter: drop-shadow(0 0 0.4rem BLACK );
+}
+.gauche ,.formations, .competences{
+    background-color: white ;
+    padding: 20px;
+
+}
+.image img{
+    width: 180px ;
+    
+    
+
+}
+.infoperso ,.interets , .langues{
+    padding:10px;
+    line-height:2 ;
+}
+.formations ,.centres,.langues{
+    line-height:2 ;
+}
+
+.date{
+    color:rgb(48, 156, 124);
+}
+.formations ul{
+    margin: 1rem 0;
+
+}
+.centres ul{
+   margin:2rem 0;
+}
+.competences{
+    line-height:4 ;
+    text-align: ;
+    
+}
+
+i{
+    color:rgb(48, 156, 124) ;
+}
+footer{
+    background-color:rgb(48, 156, 124);
+    padding:20px 0;
+    text-align: center;
+    line-height:1.5 ;
+}
+footer i{
+    color: white;
+}
+
+.flotte {
+    float:left;
+    }
+    
